@@ -1,0 +1,19 @@
+# Raw data (large, re-downloadable; document the source and date in README)
+data/raw/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# macOS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Optional: large intermediate files (keep small saved splits and tables)
+# data/processed/*.parquet
